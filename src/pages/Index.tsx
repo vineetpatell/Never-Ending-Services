@@ -144,11 +144,11 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
-            <h1 className="text-6xl md:text-8xl font-bold gradient-text neon-glow leading-tight">
-              Never Ending Services
+            <h1 className="text-6xl md:text-8xl font-bold gradient-text  leading-tight">
+               <TypewriterText text="Never Ending Services" speed={60} />
             </h1>
             <p className="text-xl md:text-2xl text-primary/90 font-light italic">
-              "<TypewriterText text="You believe in us. We believe in you. Together, we create magic." speed={40} />"
+              <TypewriterText text="You believe in us. We believe in you. Together, we create magic." speed={70} />
             </p>
             <h2 className="text-2xl md:text-3xl text-foreground/80 font-light">
               Complete Digital, Video Production, Web Development & IT Services for Indian Businesses
@@ -212,7 +212,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: CheckCircle, title: "All-in-One Solution", desc: "Complete digital services under one roof" },
-              { icon: Star, title: "5-Star Rated", desc: "Trusted by 500+ satisfied clients nationwide" },
+              { icon: Star, title: "5-Star Rated", desc: "Trusted by 300+ satisfied clients nationwide" },
               { icon: TrendingUp, title: "Fast Delivery", desc: "Quick turnaround without compromising quality" }
             ].map((usp, i) => (
               <Card key={i} className="border-border bg-card/50 hover:bg-card transition-all duration-300 ease-out hover:shadow-[0_0_30px_hsl(var(--primary)/0.3)] hover:scale-[1.02]">
@@ -291,7 +291,7 @@ const Index = () => {
                       <Star key={i} className="h-5 w-5 fill-primary text-primary" />
                     ))}
                   </div>
-                  <p className="text-foreground/90 italic leading-relaxed">"{testimonial.text}"</p>
+                  <p className="text-foreground/90 italic leading-relaxed">{testimonial.text}</p>
                   <div className="pt-4 border-t border-border">
                     <p className="font-semibold">{testimonial.name}</p>
                     <p className="text-sm text-muted-foreground">{testimonial.company}</p>
