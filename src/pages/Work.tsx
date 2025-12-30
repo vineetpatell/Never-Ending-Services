@@ -91,7 +91,7 @@ const Work = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold gradient-text">Our Work</h1>
             <p className="text-xl text-muted-foreground">
-              Showcase of projects delivered across India for 500+ satisfied clients
+              Showcase of projects delivered across India for 300+ satisfied clients
             </p>
           </div>
         </div>

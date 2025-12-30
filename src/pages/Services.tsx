@@ -117,11 +117,11 @@ const Services = () => {
                   </div>
 
                   <div className="space-y-2">
-                    <p className="text-sm font-semibold text-primary">Includes:</p>
+                    <p className="text-sm font-semibold text-white">Includes:</p>
                     <ul className="space-y-1.5">
                       {service.subServices.map((subService, i) => (
                         <li key={i} className="text-xs text-muted-foreground flex items-start gap-2">
-                          <span className="w-1 h-1 rounded-full bg-primary mt-1.5 flex-shrink-0" />
+                          <span className="w-1 h-1 rounded-full bg-white mt-1.5 flex-shrink-0" />
                           <span>{subService}</span>
                         </li>
                       ))}
